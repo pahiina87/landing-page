@@ -11,8 +11,16 @@ img {
 /* header start */
 .header {
     display: flex;
+    background-color: navy;
+    justify-content: space-between;
 }
 
-li {
+a {
+    color: lightgray;
     text-decoration: none;
+}
+
+ul > li {
+    list-style: none;
+    display: inline-block;
 }
