@@ -1,0 +1,18 @@
+.content {
+    display: flex;
+    flex-direction: column;
+    flex: 1
+}
+
+img {
+    height: 50px;
+}
+
+/* header start */
+.header {
+    display: flex;
+}
+
+li {
+    text-decoration: none;
+}
