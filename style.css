@@ -1,10 +1,20 @@
 * {
-    font-family: "Roboto"
+    font-family: "Roboto";
+    color: #F9FAF8;
 }
 
 body {
     display: flex;
     flex-direction: column;
+}
+
+.hero-title {
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+button {
+    background-color: #3882F6;
 }
 
 .header {
@@ -19,7 +29,6 @@ li {
 .header,
 .hero {
     background-color: #1F2937;
-    color: #F9FAF8;
 }
 
 
@@ -40,12 +49,17 @@ img {
 
 .info {
     display: flex;
+    text-align: center;
 }
 
 .quote {
     display: flex;
     flex-direction: column;
     background-color: #E5E7EB;
+}
+
+.CTA {
+    display: flex;
 }
 
 .footer {
