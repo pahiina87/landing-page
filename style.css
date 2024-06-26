@@ -34,7 +34,8 @@ li {
 }
 
 .header,
-.hero {
+.hero,
+.footer {
     background-color: #1F2937;
 }
 
@@ -43,15 +44,24 @@ li {
     flex: 1;
     display: flex;
     flex-direction: column;
+
 }
 
 .hero {
     display: flex;
+    padding: 200px;
 }
 
 img {
-    width: 600px;
+    width: 500px;
     height: auto;
+}
+
+.hero-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 500px;
 }
 
 .info {
@@ -59,10 +69,30 @@ img {
     text-align: center;
 }
 
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex-shrink: ;
+}
+
+.card-img {
+    width: 300px;
+}
+
+.info-subtext {
+    color: black;
+}
+
 .quote {
     display: flex;
     flex-direction: column;
     background-color: #E5E7EB;
+}
+
+.quote-text,
+.quote-source {
+    color: black;
 }
 
 .CTA {
@@ -72,6 +102,11 @@ img {
     margin: 50px;
 }
 
+.cta-title {
+    font-weight: bold;
+}
+
 .footer {
     text-align: center;
+
 }
