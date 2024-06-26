@@ -1,3 +1,7 @@
+* {
+    font-family: Roboto;
+}
+
 .content {
     display: flex;
     flex-direction: column;
@@ -11,7 +15,7 @@ img {
 /* header start */
 .header {
     display: flex;
-    background-color: navy;
+    background-color: #1F2937;
     justify-content: space-between;
 }
 
@@ -24,3 +28,20 @@ ul > li {
     list-style: none;
     display: inline-block;
 }
+
+/* header ends */
+
+/* site-overview starts */
+
+h3 {
+    font-size: 48px;
+    color: #F9FaF8;
+    font-weight: bolder;
+}
+
+.site-overview {
+    background-color:  #1F2937;
+    color: white;
+    display: flex;
+}
+
