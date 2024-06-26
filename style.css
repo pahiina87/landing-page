@@ -38,6 +38,16 @@ img {
     height: auto;
 }
 
+.info {
+    display: flex;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+}
+
 .footer {
     text-align: center;
 }
